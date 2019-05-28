@@ -1,0 +1,14 @@
+<endpoints xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime"
+		   version="2.0">
+
+
+	<endpoint name="userWeb" implementation="p3.webService2.UserWs"
+			  url-pattern="/userWs" />
+
+	<endpoint name="batchWeb" implementation="p3.webService2.BatchWs"
+			  url-pattern="/batchWs" />
+
+	<endpoint name="authentificationWeb" implementation="p3.webService2.AuthentificationWs"
+			  url-pattern="/authentificationWs" />
+
+</endpoints>

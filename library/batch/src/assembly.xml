@@ -1,0 +1,14 @@
+<assembly xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/ASSEMBLY/2.0.0"
+          xsi:schemaLocation="http://maven.apache.org/ASSEMBLY/2.0.0 http://maven.apache.org/xsd/assembly-2.0.0.xsd"> <!-- assemblage identification -->
+    <id>archive-deploy</id> <!-- archive format to be generated -->
+    <formats>
+        <format>tar.gz</format>
+        <format>zip</format>
+    </formats><!-- lib : dependencies + JAR library-batch -->
+    <dependencySets>
+        <dependencySet>
+            <outputDirectory>lib</outputDirectory>
+            <scope>compile</scope>
+        </dependencySet>
+    </dependencySets>
+</assembly>
